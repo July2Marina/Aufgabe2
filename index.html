@@ -3,11 +3,21 @@
 <head>
     <title>HYP1_T1 &ndash; JavaScript Date Object</title>
     <meta charset="utf-8">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="sytle.css">
     <!-- TODO: Create your JavaScript file and include it here -->
 </head>
-<body>
-<!-- TODO: Call functions for current day and current time (from the JS file) here -->
+<body onload="currentdate(); currenttime();">
+    <div id="content">
+        <h1>Here is the time:</h1>
+        <p> Date:<span id= "currentdate"></span></p>
+        <p> Time:<span id="currenttime"></span></p></p>
+        <br>
+        <a class="refresh" onclick="refresh()">Refresh Page!</a>
+    </div>
+  
 
-<!-- TODO: Add links for time on page and refresh and call them using the javascript pseudo protocol -->
+        
+
 </body>
 </html>
